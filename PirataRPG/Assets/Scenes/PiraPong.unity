@@ -1200,7 +1200,7 @@ GameObject:
   - component: {fileID: 1243905734}
   - component: {fileID: 1243905738}
   m_Layer: 0
-  m_Name: GlobalScriptsText
+  m_Name: GlobalScripts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
