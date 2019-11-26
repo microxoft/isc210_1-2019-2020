@@ -11,6 +11,8 @@ TagManager:
   - Grape
   - Cherry
   - Lemon
+  - NPC
+  - EssenceItem
   layers:
   - Default
   - TransparentFX
@@ -20,9 +22,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Tile
+  - Item
+  - Character
   - 
   - 
   - 
@@ -47,4 +49,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tile
+    uniqueID: 2153252633
+    locked: 0
+  - name: Item
+    uniqueID: 2217410183
+    locked: 0
+  - name: Character
+    uniqueID: 1604800105
     locked: 0

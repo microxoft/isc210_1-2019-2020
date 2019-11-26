@@ -120,6 +120,195 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &507730446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507730450}
+  - component: {fileID: 507730449}
+  - component: {fileID: 507730448}
+  - component: {fileID: 507730447}
+  m_Layer: 0
+  m_Name: GlobalScripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &507730447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507730446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5155a6e0b88796e44bb65e78791a0629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A_grass: {fileID: 1021891489372854892, guid: 9998ad634bb406d4c82061ecaf56c4a0, type: 3}
+  a_roadcross2: {fileID: 3677379626592899794, guid: a491d76d95d53a24a97ceb8f64f5326f,
+    type: 3}
+  b_roadendhor1: {fileID: 7935554000847856991, guid: b00de872c77a2db43bca19751153dacb,
+    type: 3}
+  c_roadendhor1left: {fileID: 1655851967874824780, guid: 7618e0fb8ab441542bafb58751daed8a,
+    type: 3}
+  D_grassflower1: {fileID: 6464156265990068325, guid: 42ce16b80ba4c35438094de6e39233a9,
+    type: 3}
+  d_roadendhor2: {fileID: 1694530828466207272, guid: 17475fcc0f93ce047bc7d3ed3adf4a80,
+    type: 3}
+  E_grassflower2: {fileID: 1647326705057555131, guid: 3d573e1dcdd959741a0a25f591155599,
+    type: 3}
+  e_roadendhor2: {fileID: 2456768694127216019, guid: 6881b210d0b49e9408a43aab9138d774,
+    type: 3}
+  f_roadendver1: {fileID: 5970921814294430381, guid: 0db9b33a193cfc746acf787e32afb345,
+    type: 3}
+  G_grassmushrooms: {fileID: 8031117710587062969, guid: cac72260958c76341aff04f57af1c3a5,
+    type: 3}
+  g_roadendver1down: {fileID: 7417919845889557798, guid: 6742b264ebab4904695c824167829e32,
+    type: 3}
+  h_roadendver2: {fileID: 1625337735443575709, guid: 8f7769d4e9a4618429668f2e4f647b99,
+    type: 3}
+  H_tree: {fileID: 8337822967540268118, guid: 35135224f06b97446aefc38cc105b934, type: 3}
+  i_roadendver2down: {fileID: 3635761283822948628, guid: e47bc354447580b4abbaee03aa0495ff,
+    type: 3}
+  I_treemagical: {fileID: 5189138743189283688, guid: a30f1bfd6c7ef9a4a990a5ee62e99f41,
+    type: 3}
+  j_roadmiddlehor: {fileID: 8929486832736804664, guid: 3c91b3eeeca2e9444bb90ad97b03f7bb,
+    type: 3}
+  J_treerock: {fileID: 770749181335375641, guid: 2b59b6df8018ffb44a918fdb9cc25010,
+    type: 3}
+  K_treerockautum: {fileID: 3035052291365457745, guid: d98bcf87730735e41a93c3eb5bbc040b,
+    type: 3}
+  k_roadmiddlehor2: {fileID: 8942275377086479256, guid: f93d8758a625c4944b23ad49e0b075ac,
+    type: 3}
+  l_roadmiddlever1: {fileID: 4067357452691897260, guid: c5824510c5256ac45ae0d6e94b6dde51,
+    type: 3}
+  L_treerockmagical: {fileID: 3861958171157518741, guid: 41908ddc1934eb94e979f9c86d9c72fc,
+    type: 3}
+  m_roadmiddlever2: {fileID: 996549915683125673, guid: 594a2de0f48c3c04299ebbd787456672,
+    type: 3}
+  M_treestump: {fileID: 3529055628469190886, guid: 398af41ccc8cf684f8e250a08b3d0b0a,
+    type: 3}
+  N_twotrees: {fileID: 5752489115546675723, guid: e5fa41b6d4fba8b4fb6752e3d9138384,
+    type: 3}
+  O_twotreesautum: {fileID: 6497144785119200360, guid: 0e0543d510514684481ea816c96a89ca,
+    type: 3}
+  P_twotreesmagical: {fileID: 4988154040554933593, guid: dab07a0689728e94d8bb226817179807,
+    type: 3}
+  Q_twotreestreestumps: {fileID: 4861069749966453163, guid: 7fbb16ca507bbe04eade48dd34ff1faf,
+    type: 3}
+  R_roadcorner: {fileID: 2126703203238456627, guid: 945599a21388b954293a4de255a2317b,
+    type: 3}
+  T_roadcornerright: {fileID: 6756658160397280536, guid: 5739ad20722a5db4fa4f90b8596b69ed,
+    type: 3}
+  W_roadcorner2: {fileID: 7654510457033034971, guid: 7ebb889020a884f488892d41b4512b02,
+    type: 3}
+  X_roadcorner2left: {fileID: 8899750355494412294, guid: 22c5bc1c372a737429a2b1b491147972,
+    type: 3}
+  Z_roadcross: {fileID: 5109734952055385646, guid: 86f3e67d928747b449dcd69cdcc26e82,
+    type: 3}
+  PlayerPrefab: {fileID: 6999598021681211926, guid: e8ed93da7e6b9374a97434cd385c4f0a,
+    type: 3}
+  MorahPrefab: {fileID: 2010696890504752688, guid: 776c87e8b3bd0134da7aa1f5cde5ef2d,
+    type: 3}
+  LionelPrefab: {fileID: 6187551924032891369, guid: 35e7747c42d32184dbe6ca9be1e05618,
+    type: 3}
+  YuyuPrefab: {fileID: 7724282290829274310, guid: 60eaeb3705cf9684d8ac75f254f0eee4,
+    type: 3}
+  Enemy1Prefab: {fileID: 6356510097958096518, guid: 58bf2de830eccd5418f544fb1d8ede9a,
+    type: 3}
+  ChestBananaPrefab: {fileID: 7914850427920359920, guid: 0ae034866794d464f8ee3a76e73b1270,
+    type: 3}
+  ChestCherryPrefab: {fileID: 8817945600402282584, guid: d207a7d795a2daf4fab0718916df6e61,
+    type: 3}
+  ChestGrapePrefab: {fileID: 1900699358467982646, guid: e5a4ab4bb6c120148bbf21e61edae200,
+    type: 3}
+  ChestLemonPrefab: {fileID: 7468980848606291201, guid: be5f3afb2ba8864499246732b3bc20ca,
+    type: 3}
+  ChestOrangePrefab: {fileID: 3637336405500851771, guid: c263ac0c27e97d247ae7231f00978c8a,
+    type: 3}
+  ChestSeaweedPrefab: {fileID: 8324306975038741245, guid: c5e9895339d26d2429200f62891a3a50,
+    type: 3}
+--- !u!102 &507730448
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507730446}
+  m_Text: Global Scripts
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 500
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &507730449
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507730446}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!4 &507730450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507730446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.59, y: 7.08, z: -11}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1206606098
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,5 +390,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
